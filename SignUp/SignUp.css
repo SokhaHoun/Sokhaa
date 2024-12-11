@@ -1,0 +1,88 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo> img {
+    width: 120px;
+    height: auto;
+}
+
+/* Content Box Styling */
+.content {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 360px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Form Input Styling */
+form input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+}
+
+/* Button Styling */
+form >.btn {
+    width: 99%;
+    padding: 12px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+
+
+form >a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    
+}
+
+
+form >p {
+    color: gray;
+    font-size: 14px;
+    
+}
